@@ -40,11 +40,12 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<!-- <div class="overlay" style="background: #4d4d4d"></div> -->
+<div class="overlay" style="background: #ec5a5a"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="https://avatars0.githubusercontent.com/u/30386111?s=460&amp;v=4" class="js-avatar">
+			<img src="/assets/img/avatar.jpeg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">如梦令</a></h1>
@@ -58,7 +59,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/photos">相册</a></li>
+				<li><a href="/categories/">分类</a></li>
 	        
 			</ul>
 		</nav>
@@ -85,6 +86,12 @@
 					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 		        
 			</div>
+			<!-- 网易云音乐插件 -->
+			
+				<div style="position:absolute; bottom:120px left:auto; width:85%">
+					<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=1332647902&auto=1&height=32"></iframe>
+				</div>
+			
 		</nav>
 	</header>		
 </div>
@@ -100,7 +107,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="https://avatars0.githubusercontent.com/u/30386111?s=460&amp;v=4" class="js-avatar">
+				<img src="/assets/img/avatar.jpeg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">如梦令</h1>
@@ -132,7 +139,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/photos">相册</a></li>
+					<li style="width: 50%"><a href="/categories/">分类</a></li>
 		        
 				</ul>
 			</nav>
@@ -164,8 +171,11 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/2020/01/09/%E6%99%9A%E5%AE%89/" class="archive-article-date">
+	      	<!-- <a href="/2020/01/09/%E6%99%9A%E5%AE%89/" class="archive-article-date">
   	<time datetime="2020-01-09T14:45:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-09</time>
+</a> -->
+<a href="/2020/01/09/%E6%99%9A%E5%AE%89/" class="archive-article-date">
+  	<time datetime="2020-01-09T14:45:31.000Z" itemprop="datePublished" style="color:#ef7522;font-size:14px;">2020-01-09</time>
 </a>
         </div>
     	 
@@ -297,7 +307,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">BERT</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">面试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">命名实体识别</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">自然语言处理</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">晚安</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">jupyter</a>
               </li>
             
             <div class="clearfix"></div>
@@ -349,27 +379,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="/rollingdeep.github.io" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
             </li>
           
         </ul>
@@ -380,7 +390,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">伦家琪&lt;br&gt;&lt;br&gt;华南师范大学计算机学院17级研究生&lt;br&gt;喜欢自然语言处理，研究数据增强技术&lt;br&gt;有兴趣联系我</div>
   	  	
     	</section>
     
